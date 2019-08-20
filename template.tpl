@@ -405,13 +405,11 @@ if (data.accountId) {
 
     const url = 'https://' + domain + '/linking/?' + paramsList.join("&");
     logToConsole('sendPixel: ', url);
-    sendPixel(url);
+    sendPixel(url, data.gtmOnSuccess, data.gtmOnFailure);
   });
 }
-
-data.gtmOnSuccess();
 
 
 ___NOTES___
 
-Created on 14.08.2019, 17:06:05
+Created on 20.08.2019, 13:44:58
