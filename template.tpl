@@ -2,7 +2,7 @@
 
 {
   "displayName": "Admitad Journey",
-  "description": "Admitad Tracking template integration",
+  "description": "Admitad Template for Google Tag Manager provides easy-driven integration with Admitad.\nThis template tracks users’ actions on your website and sends the data to the Admitad statistics.",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -412,4 +412,4 @@ if (data.accountId) {
 
 ___NOTES___
 
-Created on 20.08.2019, 13:44:58
+Created on 17.09.2019, 18:32:52
