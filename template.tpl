@@ -1,8 +1,16 @@
-﻿___INFO___
+﻿___TERMS_OF_SERVICE___
+
+By creating or modifying this file you agree to Google Tag Manager's Community
+Template Gallery Developer Terms of Service available at
+https://developers.google.com/tag-manager/gallery-tos (or such other URL as
+Google may provide), as modified from time to time.
+
+___INFO___
 
 {
   "displayName": "Admitad Journey",
   "description": "Admitad Template for Google Tag Manager provides easy-driven integration with Admitad.\nThis template tracks users’ actions on your website and sends the data to the Admitad statistics.",
+  "categories": ["AFFILIATE_MARKETING", "CONVERSION_TRACKING", "ATTRIBUTION"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -319,7 +327,7 @@ ___WEB_PERMISSIONS___
 
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
-/* 
+/*
 Admitad Journey template
 Copyright © 2019, Admitad GmbH.
 Authors: Aleksandr Kolodkin, Maxim Smirnov
@@ -386,7 +394,7 @@ if (broker !== undefined && broker !== '') {
 
 
 // process accountId
-if (data.accountId) {  
+if (data.accountId) {
   logToConsole('accountId = ', data.accountId);
   let params = {
     'suid': data.suid || '',
