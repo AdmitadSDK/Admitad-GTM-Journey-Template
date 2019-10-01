@@ -1,5 +1,5 @@
 homepage: "https://www.admitad.com",
 documentation: "https://help.admitad.com/advertiser",
 versions:
-  - sha: b893d6880f5ba8bbfcdb0145cfbf62a793a78c47
-    changeNotes: Ready-to-launch version
+  - sha: bb30da8195e06d3d8913543bd0b977f2810e78a0
+    changeNotes: Ready-to-launch version (with terms of service and categories)
