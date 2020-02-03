@@ -1,5 +1,5 @@
 homepage: "https://www.admitad.com",
-documentation: "https://help.admitad.com/advertiser",
+documentation: "https://help.admitad.com/gb/advertiser/topic/pdbab741aa57046d5a9dd23af62bc3734",
 versions:
-  - sha: bb30da8195e06d3d8913543bd0b977f2810e78a0
+  - sha: 04ab57bd72856b780aaaaa2798fe9654af312e1e
     changeNotes: Ready-to-launch version (with terms of service and categories)
