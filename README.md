@@ -55,7 +55,7 @@ Example of the dataLayer code (real code on your site may differ):
 let hashed_customer_id = '73062D872926C2A556F17B36F50E328DDF9BFF9D403939BD14B6C3B7F5A33FC2';
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
-  'transactionCustomer': hashed_customer_id,  // set 'transactionCustomer': '' if the email is undefined on the page
+  'transactionCustomer': hashed_customer_id,  // set 'transactionCustomer': '' if the customer ID is undefined on the page
   'suid': ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function(c) {return (c ^ (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)})
 });
 ```
